@@ -5,9 +5,14 @@
 
 var avg = findAverage(5, 9);
 */
-function isThisWorking(input) {
-  console.log("Printing: isThisWorking was called and " + input + " was passed in as an argument.");
-  return "Returning: I am returning this string!";
-}
+//function isThisWorking(input) {
+  //console.log("Printing: isThisWorking was called and " + input + " was passed in as an argument.");
+  //return "Returning: I am returning this string!";
+//}
 
-isThisWorking(3);
+//isThisWorking(3);
+
+function eat(food) {
+  return food + " tasted really good.";
+}
+console.log(eat("bananas"));
